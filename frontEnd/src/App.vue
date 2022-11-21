@@ -5,8 +5,8 @@
 
 <template>
   <div class="container">
-    <h1>hello word</h1>
-  <Header/>
+    <!-- <h1>hello word</h1> -->
+  <Header title="Task Tracker" />
   </div>
 </template>
 
