@@ -58,7 +58,7 @@ export default {
   <div class="container">
     <!-- <h1>hello word</h1> -->
   <Header title="Task Tracker" />
-  <AddTask @add-task="AddTask"/>
+  <AddTask @add-task="addTask"/>
   <Tasks @toggle-reminder="toggleReminder" @delete-task="deleteTask" :tasks="tasks" />
   </div>
 </template>
