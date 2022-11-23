@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     toggleAddTask(){
-      this.showAddTAsk = !this.showAddTask
+      this.showAddTask = !this.showAddTask
     },
     addTask(task){
       this.tasks = [...this.tasks, task]
