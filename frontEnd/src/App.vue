@@ -61,7 +61,7 @@ export default {
 <template>
   <div class="container">
     <!-- <h1>hello word</h1> -->
-  <Header @toggle-add-task="toggleAddTask" title="Task Tracker" />
+  <Header @toggle-add-task="toggleAddTask" title="Task Tracker" :showAddTask="showAddTask" />
   <div v-show="showAddTask">
     <AddTask @add-task="addTask"/>
   </div>
