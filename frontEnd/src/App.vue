@@ -78,6 +78,14 @@ header {
   display: block;
   margin: 0 auto 2rem;
 }
+body{
+  widows: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 @media (min-width: 1024px) {
   header {
