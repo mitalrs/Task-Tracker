@@ -26,3 +26,16 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+
+
+#1:10:00
+#run backend those host on npm json-server
+#npm run backend==> http://localhost:5000/tasks
+
+
+#frontend run
+#npm run dev
+
+#run builded frontend
+#serve -s dist
