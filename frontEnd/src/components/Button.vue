@@ -16,3 +16,14 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+button{
+    border-style: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    font-weight: 500;
+    font-size: 20px;
+}
+</style>

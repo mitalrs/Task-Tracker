@@ -29,6 +29,7 @@ export default {
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    color: white;
 }
  .task.reminder{
     border-left: 5px solid green;

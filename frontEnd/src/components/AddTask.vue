@@ -13,7 +13,7 @@
             />
         </div>
         <div class="form-control form-control-check">
-            <label>Set reminder</label>
+            <label>Set Reminder</label>
             <input type="checkbox" v-model="reminder" name="reminder"/>
         </div>
 
@@ -94,4 +94,21 @@ export default{
     flex: 2;
     height: 20px;
 }
+input, text{
+    background-color: rgb(78, 78, 78);
+    color: bisque;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-block{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(117, 245, 79);
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
 </style>
