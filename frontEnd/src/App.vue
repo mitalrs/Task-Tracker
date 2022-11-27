@@ -2,6 +2,8 @@
    import Header from './components/Header.vue'
    import Tasks from './components/Tasks.vue'
    import AddTask from './components/AddTask.vue'
+  //  import * as dotenv from 'dotenv'
+  
 
 export default {
   name: 'App',
@@ -33,14 +35,14 @@ export default {
       )
     },
     async fetchTasks(){
-      const res = await fetch('api/tasks')
+      const res = await fetch(`${import.meta.env.VITE_api}/tasks`)
 
       const data = await res.json()
 
       return data
     },
     async fetchTask(id){
-      const res = await fetch(`api/tasks/${id}`)
+      const res = await fetch(`${import.meta.env.VITE_api}/tasks/${id}`)
 
       const data = await res.json()
 
