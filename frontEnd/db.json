@@ -1,5 +1,5 @@
 {
-"tasks": [
+  "tasks": [
     {
       "id": "1",
       "text": "Doctor Appointment",
@@ -17,6 +17,12 @@
       "text": "Food Shopping",
       "day": "March 3rd at 11:00am",
       "reminder": false
+    },
+    {
+      "id": 81354,
+      "text": "test 1",
+      "day": "test 1",
+      "reminder": true
     }
   ]
 }
