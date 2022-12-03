@@ -35,9 +35,14 @@ export default {
 
       this.tasks = [...this.tasks, data]
     },
-    deleteTask(id){
+    async deleteTask(id){
       if(confirm('Are you sure to delete?')){
-        this.tasks = this.tasks.filter((task)=> task.id !== id) 
+        const res = await fetch(`${import.meta.env.VITE_api}/tasks/${id}`,{
+          method: 'DELETE'
+        })
+
+        res.status === 200 ? (this.tasks = this.tasks.filter((task)=> task.id !== id)) : alert('Error deleting task')
+ 
       }
     },
     toggleReminder(id){
