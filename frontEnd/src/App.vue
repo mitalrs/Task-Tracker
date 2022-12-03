@@ -1,5 +1,6 @@
 <script>
    import Header from './components/Header.vue'
+   import Footer from './components/Footer.vue'
    import Tasks from './components/Tasks.vue'
    import AddTask from './components/AddTask.vue'
   //  import * as dotenv from 'dotenv'
@@ -9,6 +10,7 @@ export default {
   name: 'App',
   components: {
     Header,
+    Footer,
     Tasks,
     AddTask,
   },
@@ -91,6 +93,7 @@ export default {
     <AddTask @add-task="addTask"/>
   </div>
   <Tasks @toggle-reminder="toggleReminder" @delete-task="deleteTask" :tasks="tasks" />
+  <Footer/>
   </div>
 </template>
 
