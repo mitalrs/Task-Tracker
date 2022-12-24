@@ -1,7 +1,9 @@
 <template>
     <div @dblclick="$emit('toggle-reminder', task.id)" :class="[task.reminder ? 'reminder' : '', 'task']">
         <h3>{{task.text}}
-            <i @click="$emit('delete-task',task.id)" class="fas fa-times"></i>
+            <button class="button-dlt" @click="$emit('delete-task',task.id)">
+                <i class="fa-solid fa-trash"></i>
+            </button>
         </h3>
         <p>{{task.day}}</p>
     </div>
@@ -40,4 +42,11 @@ export default {
     align-items: center;
     justify-content: space-between;
  }
+ .button-dlt{
+    background-color: transparent;
+    border: none;
+    color: #d85c5c;
+    font-size: 20px;
+ }
+ 
 </style>
