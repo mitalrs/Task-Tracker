@@ -27,7 +27,7 @@ export default {
 <template>
   <div class="container">
     <!-- <h1>hello word</h1> -->
-  <Header @toggle-add-task="toggleAddTask" title="Task Tracker" :showAddTask="showAddTask" />
+  <Header @toggle-add-task="toggleAddTask" title="TimeTrack" :showAddTask="showAddTask" />
   
   <router-view :showAddTask="showAddTask"></router-view>
   <Footer/>

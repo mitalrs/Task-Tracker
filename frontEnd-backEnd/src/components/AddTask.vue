@@ -110,5 +110,4 @@ input, text{
     font-weight: 400;
 }
 
-
 </style>

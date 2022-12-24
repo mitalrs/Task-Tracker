@@ -1,7 +1,8 @@
 <template>
     <header>
         <!-- <h2>Task Tracker</h2> -->
-        <h1>{{ title }}</h1>
+        <!-- <h1>{{ title }}</h1> -->
+        <LogoVue />
         <Button v-show="homePage"
          @btn-click="$emit('toggle-add-task')"
          :text="showAddTask ? 'close' : 'Add Task'" 
@@ -12,6 +13,7 @@
 
 <script>
 import Button from './Button.vue'
+import LogoVue from './Logo.vue'
 
 export default {
     name: 'header',
@@ -20,7 +22,8 @@ export default {
         showAddTask: Boolean,
     },
     components: {
-        Button
+        Button,
+        LogoVue
     },
     computed: {
         homePage() {
