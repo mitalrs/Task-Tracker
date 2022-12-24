@@ -13,6 +13,8 @@ export default{
 <style>
 span{
     display: flex;
+   margin-right: 70px;
+   margin-left: 10px;
 }
 span :first-child{
     color: #4682b6;

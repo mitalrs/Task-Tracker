@@ -22,8 +22,8 @@ button{
     border-style: none;
     border-radius: 5px;
     height: 40px;
-    width: 110px;
-    font-weight: 500;
+    width: 40px;
+    font-weight: 700;
     font-size: 20px;
     margin: 10px;
 }
