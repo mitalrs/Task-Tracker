@@ -21,18 +21,18 @@ export default {
 
 <style scope>
 .fas{
-    color: red;
+    color: #d85c5c;
 }
 
 .task{
-    background-color: #555555;
+    background-color: #292e30;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
-    color: white;
+    color: #b6c2dc;
 }
  .task.reminder{
-    border-left: 5px solid green;
+    border-left: 5px solid #4682b6;
  }
 
  .task h3{

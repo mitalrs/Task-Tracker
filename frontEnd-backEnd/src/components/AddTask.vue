@@ -95,8 +95,8 @@ export default{
     height: 20px;
 }
 input, text{
-    background-color: rgb(78, 78, 78);
-    color: bisque;
+    background-color: #292e30;
+    color: #b6c2dc;
     border-style: none;
     border-radius: 5px;
 }
@@ -104,7 +104,7 @@ input, text{
 .btn-block{
     width: 90px;
     height: 30px;
-    background-color: rgb(117, 245, 79);
+    background-color: #4682b6;
     color: black;
     font-size: 15px;
     font-weight: 400;
